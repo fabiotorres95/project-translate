@@ -14,11 +14,6 @@ class LanguageModel(AbstractModel):
             "acronym": self.data["acronym"],
         }
 
-    @staticmethod
-    def list_dicts():
-        return [
-            {
-                "name": language["name"],
-                "acronym": language["acronym"],
-            } for language in db["languages"].find()
-        ]
+    @classmethod
+    def list_dicts(cls):
+        return [cls(language).to_dict() for language in cls._collection.find()]
