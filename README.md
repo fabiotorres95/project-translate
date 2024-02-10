@@ -8,3 +8,6 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 - quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
 - quais arquivos/pastas foram desenvolvidos pela Trybe.
 -->
+Projeto Traduzo - Trybe eletiva Python seção 4: "Flask"
+
+Python - projeto 4 de 6
